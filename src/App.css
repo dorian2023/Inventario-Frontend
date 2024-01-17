@@ -1,0 +1,69 @@
+
+.body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+        height: 100vh;
+        background-image: url('../public/fondologin.jpg'); /* Reemplaza con la ruta correcta de tu imagen */
+        background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el fondo */
+        background-position: center; /* Ajusta la posición de la imagen al centro */
+        background-repeat: repeat;
+}
+.App {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Datos {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.Datos input {
+  width: 300px;
+  height: 20px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.Datos select {
+  width: 300px;
+  height: 20px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.Datos button {
+  width: 200px;
+
+  margin-top: 5px;
+
+}
+.titulos{
+  padding: 2px;
+}
+.formulario {
+  width: 400px;
+  height: 200px;
+  margin: 5px 0px;
+}
+.inputs {
+  width: 99%;
+}
+#footer-form {
+  background-image: radial-gradient(circle at 67.51% 50%, #3e3826 0, #2d2b1d 16.67%, #1c1314 33.33%, #000000 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
+}
+#header-form{
+  background-image: radial-gradient(circle at 67.51% 50%, #3e3726 0, #2c2d1d 16.67%, #1c1314 33.33%, #000000 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
+  color:white;
+}
+@media (max-width: 575px) {
+  /* Estilos para pantallas de hasta 575px de ancho (teléfonos) */
+  .body {
+    max-width: 540px;
+  }
+  
+}
